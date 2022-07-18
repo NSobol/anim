@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-collapse {
+  width: 150px;
+  height: 80px;
+  margin-left: 200px;
+  margin-top: 200px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: blue;
+  box-shadow: 0 0 35px blue;
+  transition: 0.5s;
+}
+
+.btn-collapse:hover {
+  background-color: darkslateblue;
+  box-shadow: 0 0 35px darkslateblue;
+}
+
+.widget-text {
+  display: none;
+}
+
+.active {
+  display: block;
+  width: 500px;
+  max-height: 400px;
+  margin-top: 20px;
+  transition: height 10s ease 0s;
+}
