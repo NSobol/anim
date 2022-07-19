@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-collapse {
+  width: 150px;
+  height: 80px;
+  margin-left: 200px;
+  margin-top: 200px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: blue;
+  box-shadow: 0 0 35px blue;
+  transition: 0.5s;
+}
+
+.btn-collapse:hover {
+  background-color: darkslateblue;
+  box-shadow: 0 0 35px darkslateblue;
+}
+
+.collapse-body {
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  height: 0;
+  margin-top: 20px;
+  margin-left: 100px;
+  transition-timing-function: ease;
+  transition-duration: 3s;
+  transition-property: height, visibility;
+}
+
+.collapse-body.active {
+  border: 1px solid darkslateblue;
+  border-radius: 10px;
+}
+
+.collapse-content {
+  background-color: #fff;
+  padding: 15px;
+}
+
